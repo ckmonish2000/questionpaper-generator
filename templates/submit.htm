@@ -1,0 +1,10 @@
+{%extends 'base.html'%}
+
+{% block body %}
+
+<form action="/get" method="POST">
+<input type="text" placeholder="subject" name="subject">
+<textarea name="question" id="" cols="30" rows="10" placeholder="Question"></textarea>
+<input type="submit">
+</form>
+{%endblock body %}
